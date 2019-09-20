@@ -2,31 +2,32 @@
 
 ![Build Pass](https://img.shields.io/travis/rust-lang/rust.svg)
 
-This repository contains some automator scripts that make your life with Jupyter notebook much more efficient.
+This repository contains some Automator scripts that make your life with Jupyter notebook much more efficient.
 
 ## How to use
 
-Download or clone this project, you will find those wierd folder-like files are actually automator scripts.
+Download or clone this project, you will find those weird folder-like files are actually Automator scripts.
+![Demo](https://raw.githubusercontent.com/JunsW/FastJN/master/Resources/Demo/Demo0.png)  
 
-![pic]()
+Double-click on the script and click “install” button on the pop-up alert. it will automatically installed and a system preference window might show up to allow you to manage the actions. Just close it if you don’t want to do any further customization.
 
-Double-click on the script and click “install” button on the pop-up window. it will automatically installed and a system preferenc might show up to allow you manage the actions. Just close it if you don’t want to do any further customization.
+For example, if you installed _Open ipynb_, right-click on any “.ipynb” file, you will find “Open ipynb” in the “Quick Actions”.
 
-For example, if you installed _Open ipynb_, right click on any “.ipynb” file, you will find “Open ipynb” in the “Quick Actions”.
+All done👏.
 
-All donw👏.
-
-> Those quick actions installed can be accessed by right click menu on all types of files in Finder. Don’t do it on wrong file tpyes.
+> Those quick actions installed can be accessed by right-clicking menu on all types of files in Finder. So don’t do it on wrong file types or you will see an error.
 
 ## Content
 
 1. Open ipynb
-With this script, you can open any `ipynb` file by simply right clicking file and selecting this item in the “Quick Actions”.
+With this script installed, you can open any `ipynb` file by simply right-clicking file and selecting this item in the “Quick Actions”.
 
-This action will open a new Terminal window that is running jupyter notebook. So you need to manaully close jupyter notebook session when finished editing. 
+This action will open a new Terminal window that is running Jupyter notebook. So you need to manually close Jupyter notebook session with either of the following options when finished editing.   
 
+- **Option1**  
 Select the terminal window and press `Control+C` to end the session and `CMD+Q` to quit the terminal.  
-Or  
+
+- **Option2  
 Select the terminal window and press `CMD+Q` and then click on `Terminate Process` button on popup alert.
 
 2. Convert to html
@@ -37,7 +38,7 @@ The new file wiil be in the same folder as your `ipynb` file.
 This action will convert your `ipynb` to a pdf file. 
 The new file wiil be in the same folder as your `ipynb` file.
 
-> This function need to `pandoc`.  
-Run `pip install pandoc` in your terminal when you see error.
+> This script need package `pandoc`.  
+Run `pip install pandoc` in your terminal if you see an error complaining `pandoc` not found.
 
 
