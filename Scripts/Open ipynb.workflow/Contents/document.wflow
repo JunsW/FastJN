@@ -59,7 +59,11 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/jupyter notebook $1</string>
+					<string>osascript &lt;&lt;END 
+tell application "Terminal"
+    do script "jupyter notebook $1;"
+end tell
+END</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
