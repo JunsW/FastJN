@@ -6,8 +6,8 @@ This repository contains some Automator scripts that make your life with Jupyter
 
 ## How to use
 
-Download or clone this project, you will find those weird folder-like files are actually Automator scripts.
-![Demo](https://raw.githubusercontent.com/JunsW/FastJN/master/Resources/Demo/Demo0.png)  
+Download or clone this project, you will find those weird folder-like files are actually Automator scripts.  
+![Demo](Resources/Demo/Demo0.png)  
 
 Double-click on the script and click “install” button on the pop-up alert. it will automatically installed and a system preference window might show up to allow you to manage the actions. Just close it if you don’t want to do any further customization.
 
