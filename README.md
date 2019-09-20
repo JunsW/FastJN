@@ -28,7 +28,7 @@ This action will open a new Terminal window that is running Jupyter notebook. So
 - **Option1**  
 Select the terminal window and press `Control+C` to end the session and `CMD+Q` to quit the terminal.  
 
-- **Option2** 
+- **Option2**   
 Select the terminal window and press `CMD+Q` and then click on `Terminate Process` button on popup alert.
 
 2. Convert to html
