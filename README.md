@@ -6,10 +6,11 @@ This repository contains some Automator scripts that make your life with Jupyter
 
 ## How to use
 
-Download or clone this project, you will find those weird folder-like files are actually Automator scripts.  
-![Demo](Resources/Demo/Demo0.png)  
+Download or clone this project, you will find those weird folder-like files in **Scripts** folder are actually Automator scripts.  
 
 Double-click on the script and click “install” button on the pop-up alert. it will automatically installed and a system preference window might show up to allow you to manage the actions. Just close it if you don’t want to do any further customization.
+
+![Demo](Resources/Demo/Demo_0.png)  
 
 For example, if you installed _Open ipynb_, right-click on any “.ipynb” file, you will find “Open ipynb” in the “Quick Actions”.
 
@@ -27,7 +28,7 @@ This action will open a new Terminal window that is running Jupyter notebook. So
 - **Option1**  
 Select the terminal window and press `Control+C` to end the session and `CMD+Q` to quit the terminal.  
 
-- **Option2  
+- **Option2**   
 Select the terminal window and press `CMD+Q` and then click on `Terminate Process` button on popup alert.
 
 2. Convert to html
