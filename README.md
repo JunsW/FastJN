@@ -2,7 +2,10 @@
 
 ![Build Pass](https://img.shields.io/travis/rust-lang/rust.svg)
 
-This repository contains some Automator scripts that make your life with Jupyter notebook much more efficient.
+This repository contains some Automator scripts making your life with Jupyter notebook much more efficient.
+## How to use
+![Demo](Resources/Demo/Demo_1.png)  
+Right-click on a `ipynb` file, you will see some scripts installed in Quick Actions part.
 
 ## Content
 
@@ -12,9 +15,9 @@ This repository contains some Automator scripts that make your life with Jupyter
 | Convert to FORMAT | Convert selected file to target format.| Supported Formats: `md`, `html`, `py`, `pdf`, `txt` |
 | Copy ipynb script | Copy selected file script content to clipboard | The content is same the converted `py` file |
 
-## How to use
+## Install
 
-Download or clone this project, you will find those weird folder-like files in **Scripts** folder are actually Automator scripts.  
+Download or clone this repository, you will find those weird folder-like files in **Scripts** folder are actually Automator scripts.  
 
 Double-click on the script and click “install” button on the pop-up alert. it will automatically installed and a system preference window might show up to allow you to manage the actions. Just close it if you don’t want to do any further customization.
 
