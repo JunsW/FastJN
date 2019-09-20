@@ -4,6 +4,14 @@
 
 This repository contains some Automator scripts that make your life with Jupyter notebook much more efficient.
 
+## Content
+
+| Script Name   |     Comment       | Note  |
+| ------------- |:-------------:| -----:|
+| Open ipynb     | Open selected file in Jupyter notebook | Notice |
+| Convert to FORMAT | Convert selected file to target format.| Supported Formats: `md`, `html`, `py`, `pdf`, `txt` |
+| Copy ipynb script | Copy selected file script content to clipboard | The content is same the converted `py` file |
+
 ## How to use
 
 Download or clone this project, you will find those weird folder-like files in **Scripts** folder are actually Automator scripts.  
@@ -18,8 +26,7 @@ All done👏.
 
 > Those quick actions installed can be accessed by right-clicking menu on all types of files in Finder. So don’t do it on wrong file types or you will see an error.
 
-## Content
-
+## Notice
 1. Open ipynb
 With this script installed, you can open any `ipynb` file by simply right-clicking file and selecting this item in the “Quick Actions”.
 
@@ -31,11 +38,7 @@ Select the terminal window and press `Control+C` to end the session and `CMD+Q` 
 - **Option2**   
 Select the terminal window and press `CMD+Q` and then click on `Terminate Process` button on popup alert.
 
-2. Convert to html
-This action will convert your `ipynb` to a html file. 
-The new file wiil be in the same folder as your `ipynb` file.
-
-3. Convert to pdf
+2. Convert to pdf
 This action will convert your `ipynb` to a pdf file. 
 The new file wiil be in the same folder as your `ipynb` file.
 
