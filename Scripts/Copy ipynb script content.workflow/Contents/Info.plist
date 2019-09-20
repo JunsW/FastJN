@@ -12,7 +12,7 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>Copy ipynb script</string>
+				<string>Copy ipynb script content</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
