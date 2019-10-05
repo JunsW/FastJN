@@ -2,7 +2,7 @@
 
 ![Build Pass](https://img.shields.io/travis/rust-lang/rust.svg)
 
-This repository contains some Automator scripts making your life with Jupyter notebook much more efficient.
+This repository contains some **Mac OS** Automator scripts making your life with Jupyter notebook much more efficient.
 ## How to use
 ![Demo](Resources/Demo/Demo_1.png)  
 Right-click on a `ipynb` file, you will see some scripts installed in Quick Actions part.
